@@ -53,6 +53,9 @@ function App() {
       </div>)}
       {todoList.length === 0 && "Vše je hotovo"}
 
+      <hr/>
+      <a href={"https://github.com/petrfilip/react-todo-list"}>Zdrojáky na Githubu</a>
+
     </div>
   );
 }
